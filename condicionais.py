@@ -11,10 +11,10 @@ else:
     print("x eh maior que",i)
 '''
 #banco de dados 
-DevOps = ["jenkins", "ansible", "bash", "puppet", "docker", "kubernetes", "terraform"] #lista
-Development = ["java", "nodejs", "javascript", ".net", "python"] # estrutura de dados
-temp = {"nome":"tps", "Skill":"AI", "code":1234} # dicionario
-temp2 ={"nome":"tp", "Skill":"FinOps", "code":12345} #dicionario
+DevOps = ["jenkins", "ansible", "bash", "puppet", "docker", "kubernetes", "terraform"] #lista -> [] 
+Development = ("java", "nodejs", "javascript", ".net", "python") # estrutura de dados -> ()
+temp = {"nome":"tps", "Skill":"AI", "code":1234} # dicionario -> {}
+temp2 ={"nome":"tp", "Skill":"FinOps", "code":12345} #dicionario -> {}
 
 usr_skill = input("enter your desired skill: ")
 # checar se existe essa skill no banco de dados
